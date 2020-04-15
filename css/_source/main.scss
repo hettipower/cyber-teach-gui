@@ -8,9 +8,12 @@
 @import 'base';
 
 @import 'sidebar.login';
+@import 'sidebar.dashboard';
 
 @import 'content.login';
+@import 'content.dashboard';
 
-@import 'header.logn';
+@import 'header.login';
+@import 'header.dashboard';
 
 @import 'custom';
