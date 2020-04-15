@@ -1,0 +1,152 @@
+.loginContWrap {
+    width: 80%;
+    background-color: #f4f4f4;
+    border-left: 1px solid #dedede;
+
+    .roomDetailsWrap {
+
+        .detailsWrap {
+            background-color: #e7e7e7;
+            padding: 1.5rem;
+
+            .titlesWrap {
+                padding-bottom: 2rem;
+                border-bottom: 1px solid #b0b0b0;
+
+                .title {
+                    color: #ff5a00;
+                    font-size: 21px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    display: flex;
+                    align-items: center;
+                    
+                    i {
+                        font-size: 38px;
+                        margin-right: 1rem;
+                    }
+                }
+
+                .copyWrap {
+                    width: 46%;
+                    background-color: #fff;
+                    padding: 4px;
+                    border-radius: 5px;
+
+                    .input-group-prepend {
+                        .input-group-text {
+                            border: none;
+                            background-color: transparent;
+                            color: #cacaca;
+                            padding: 0 18px;
+                        }
+                    }
+
+                    .input-group-append {
+                        .input-group-text {
+                            background-color: transparent;
+                            border: none;
+                            padding: 0;
+
+                            .webinarLinkCopy {
+                                background-color: #5f5f5f;
+                                text-transform: uppercase;
+                                color: #fff;
+                                padding: 0.5rem 2rem;
+                            }
+                        }
+                    }
+
+                    .form-control {
+                        border: none;
+                        box-shadow: 0 0 0;
+                        min-height: 42px;
+                    }
+                }
+
+                .startMetting {
+                    background-color: #ff8e42;
+                    color: #fff;
+                    padding: 0.75rem 3rem;
+                }
+            }
+
+            .sessionsWrap {
+                margin-top: 0.75rem;
+
+                .sessionDetails {
+                    color: #434343;
+                    font-weight: 600;
+                    font-size: 16px;
+                }
+
+                .btnsWrap {
+                    width: 40%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .btn {
+                        background-color: transparent;
+                        border: 1px solid #bdbdbd;
+                        padding: 0.5rem 2rem;
+                        color: #5f5f5f;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .recordingListWrap {
+            padding: 1.5rem;
+
+            .dataTableWrap {
+                background-color: #fff;
+                position: relative;
+                border: 1px solid #e0e6fc;
+                padding: 1rem;
+
+                h3 {
+                    margin-bottom: -27px;
+                    color: #454545;
+                    font-size: 20px;
+                }
+
+                .dataTables_wrapper {
+                    .dataTables_length {
+                        display: none;
+                    }
+
+                    th , td {
+                        border-right:none;
+                    }
+
+                    th {
+                        color: #9a979e;
+                        font-weight: 400;
+                        font-size: 12px;
+                    }
+
+                    td {
+                        color: #5a657b;
+                        font-size: 13px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#toastCopy {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    top: 10px;
+    width: 100px;
+    color: #155724;
+    background-color: #d4edda;
+}
