@@ -22181,6 +22181,21 @@ a {
   background-color: #191d29;
   padding: 0.75rem;
 }
+.sidebarDashboard .navDetailsWrap .infoContent {
+  background-color: #3a4058;
+  border-radius: 3px;
+  padding: 1rem;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+.sidebarDashboard .navDetailsWrap .infoContent h3 {
+  font-size: 19px;
+}
+.sidebarDashboard .navDetailsWrap .infoContent h5 {
+  font-size: 15px;
+  text-decoration: underline;
+}
 
 .loginContWrap {
   width: 80%;
@@ -22321,63 +22336,8 @@ a {
   background-position: center;
   background-size: cover;
 }
-
-.headerLoginWarp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 72px;
-}
-.headerLoginWarp .menuWrap {
-  background-color: #494949;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  padding: 0 1rem;
-}
-.headerLoginWarp .menuWrap .mainNavi .nav-link {
-  padding: 1rem 1rem;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
-  min-height: 72px;
-  line-height: 2.5;
-  border-bottom: 4px solid transparent;
-  -webkit-transition: 0.5s all ease;
-  transition: 0.5s all ease;
-}
-.headerLoginWarp .menuWrap .mainNavi .nav-link:hover {
-  border-bottom-color: #ff5a00;
-}
-.headerLoginWarp .accountWrap {
-  background-color: #353334;
-}
-.headerLoginWarp .accountWrap .dropdown-toggle {
-  -webkit-box-shadow: 0 0 0;
-          box-shadow: 0 0 0;
-  padding: 0 1rem;
-  color: #fff;
-  font-size: 14px;
-  min-height: 72px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.headerLoginWarp .accountWrap .dropdown-toggle .userImage {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  border: 2px solid #fff;
-  margin-right: 1rem;
-  background-color: #606060;
-  overflow: hidden;
+.dashboardContWrap .dashboradContentWrapper {
+  padding: 1rem;
 }
 
 .headerLoginWarp {
@@ -22436,4 +22396,72 @@ a {
   margin-right: 1rem;
   background-color: #606060;
   overflow: hidden;
+}
+
+.dashboardHeader {
+  min-height: 72px;
+  background-color: #2b2b2b;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.dashboardHeader .roomName {
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+.dashboardHeader .roomName i {
+  color: #ff7900;
+}
+.dashboardHeader .roomName .recordingBtn {
+  color: #fff;
+  text-transform: initial;
+  background-color: #ff7900;
+  border-radius: 33px;
+  padding: 0.5rem 1.5rem;
+  margin-left: 1rem;
+}
+.dashboardHeader .roomName .recordingBtn i {
+  color: #fff;
+}
+.dashboardHeader .timeWrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.dashboardHeader .timeWrapper .leaveBtn {
+  width: auto;
+  background-color: #ff6263;
+  color: #fff;
+  padding: 0.75rem 2rem 0.75rem 59px;
+  border-radius: 33px;
+  font-size: 14px;
+}
+.dashboardHeader .timeWrapper .time {
+  color: #b3b3b3;
+  font-weight: 700;
+  font-size: 13px;
+}
+.dashboardHeader .timeWrapper .time strong {
+  color: #ff7900;
+}
+.dashboardHeader .timeWrapper .users {
+  color: #b3b3b3;
+  font-weight: 700;
+  font-size: 13px;
+}
+.dashboardHeader .timeWrapper .users strong {
+  color: #ff7900;
 }

@@ -1,0 +1,67 @@
+.dashboardHeader {
+    min-height: 72px;
+    background-color: #2b2b2b;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    align-items: center;
+
+    .roomName {
+        color: #fff;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 26px;
+
+        i {
+            color: #ff7900;
+        }
+
+        .recordingBtn {
+            color: #fff;
+            text-transform: initial;
+            background-color: #ff7900;
+            border-radius: 33px;
+            padding: 0.5rem 1.5rem;
+            margin-left: 1rem;
+
+            i {
+                color: #fff;
+            }
+        }
+    }
+
+    .timeWrapper {
+        flex: 1;
+        display: flex;
+        padding-left: 1rem;
+        align-items: center;
+        justify-content: space-between;
+
+        .leaveBtn {
+            width: auto;
+            background-color: #ff6263;
+            color: #fff;
+            padding: 0.75rem 2rem 0.75rem 59px;
+            border-radius: 33px;
+            font-size: 14px;
+        }
+
+        .time {
+            color: #b3b3b3;
+            font-weight: 700;
+            font-size: 13px;
+
+            strong {
+                color: #ff7900;
+            }
+        }
+
+        .users {
+            color: #b3b3b3;
+            font-weight: 700;
+            font-size: 13px;
+
+            strong {
+                color: #ff7900;
+            }
+        }
+    }
+}

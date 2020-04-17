@@ -40,5 +40,23 @@
         flex: 1;
         background-color: #191d29;
         padding: 0.75rem;
+
+        .infoContent {
+            background-color: #3a4058;
+            border-radius: 3px;
+            padding: 1rem;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 400;
+
+            h3 {
+                font-size: 19px;
+            }
+
+            h5 {
+                font-size: 15px;
+                text-decoration: underline;
+            }
+        }
     }
 }
