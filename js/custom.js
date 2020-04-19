@@ -2,6 +2,18 @@ jQuery(document).ready( function ($) {
 
     $('#roomRecordings').DataTable();
 
+    $('.dashboardContWrap .recordingActionBar .left .record').on('click' , function(e){
+        e.preventDefault();
+        $(this).addClass('d-none');
+        $('.dashboardContWrap .recordingActionBar .left .recording').addClass('start');
+    });
+
+    $('.dashboardContWrap .recordingActionBar .left .recording .stop').on('click' , function(e){
+        e.preventDefault();
+        $('.dashboardContWrap .recordingActionBar .left .record').removeClass('d-none');
+        $('.dashboardContWrap .recordingActionBar .left .recording').removeClass('start');
+    });
+
 } );
 
 function copyWebinarLink(){

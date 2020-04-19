@@ -21,10 +21,10 @@
         <div class="navContentWrap d-flex">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" href="http://localhost/cyber-teach-gui/dashbord.php"><i class="fas fa-th-large"></i></a>
+                    <a class="nav-link" href="http://localhost/cyber-teach-gui/dashbord.php"><i class="fas fa-th-large"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/cyber-teach-gui/dashbord-notofication.php"><i class="fas fa-bell"></i></a>
+                    <a class="nav-link active" href="http://localhost/cyber-teach-gui/dashbord-notofication.php"><i class="fas fa-bell"></i></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="http://localhost/cyber-teach-gui/dashbord-messages.php">
@@ -43,11 +43,9 @@
                 </li>
             </ul>
             <div class="navDetailsWrap">
-                <div class="infoContent">
-                    <h3>Physiscs lesson 02</h3>
-                    <p>By Marlon Iddamalgoda</p>
-                    <h5>Topics we are discussing</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu</p>
+                <div class="notification">
+                    <p>Sirimali Perera joined Room</p>
+                    <div class="time text-right">23 seconds ago</div>
                 </div>
             </div>
         </div>

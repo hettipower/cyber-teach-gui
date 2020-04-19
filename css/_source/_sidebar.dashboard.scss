@@ -8,6 +8,8 @@
     }
 
     .navContentWrap {
+        height: calc(100% - 72px);
+
         .nav {
             background-color: #ff7900;
 
@@ -23,13 +25,109 @@
                     color: #fff;
                     border-radius: 33px 0 0 33px;
                     transition: 0.5s all ease;
+                    position: relative;
 
                     &.active {
                         background-color: #191d29;
+                        
+                        .count {
+                            background-color: #ff7900;
+                        }
                     }
 
                     &:hover {
                         background-color: #191d29;
+
+                        .count {
+                            background-color: #ff7900;
+                        }
+                    }
+
+                    .count {
+                        background-color: #060606;
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 100%;
+                        font-size: 10px;
+                        position: absolute;
+                        right: 5px;
+                        top: 0;
+                    }
+                }
+            }
+        }
+
+        .notification {
+            background-color: #3a4058;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            color: #acacae;
+            font-size: 12px;
+
+            .time {
+                color: #585f72;
+                font-weight: 700;
+                font-size: 10px;
+            }
+        }
+
+        .messageItem {
+            background-color: #3a4058;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-radius: 5px;
+            color: #c5c6c8;
+            font-size: 13px;
+
+            &.currentUser {
+                background-color: #2d395f;
+            }
+
+            .authorDetails {
+                .author {
+                    flex: 1;
+                    padding-right: 0.5rem;
+
+                    .userImage {
+                        display: inline-block;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 100%;
+                        background-size: cover;
+                        background-position: center;
+                        margin-right: 0.5rem;
+                    }
+
+                    .userName {
+                        color: #a2aed8;
+                        font-size: 12px;
+                    }
+                }
+
+                .time {
+                    color: #979596;
+                    font-size: 12px;
+                }
+            }
+
+            .message {
+                margin-top: 0.5rem;
+                border-top: 1px solid #242d4a;
+                padding-top: 0.5rem;
+
+                .messageAction {
+                    a {
+                        color: #8088af;
+                        display: inline-block;
+                        margin-right: 0.5rem;
+
+                        &:hover {
+                            color: #fff;
+                        }
                     }
                 }
             }
